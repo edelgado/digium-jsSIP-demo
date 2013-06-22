@@ -1,7 +1,9 @@
 /***************** Generales ***************/
 /*******************************************/
 body {
-  min-width: 1120px
+  min-width: 1120px;
+/*   background-color: #f6f6f6; */
+  background-color: #f0efeb;
 }
 
 body, div, span, img, h1, h2, h3, h4, h5, h6, form, table, td, tr, p {
@@ -149,17 +151,17 @@ div.balloonInvitationTip a:hover {
   top: 100px;
   margin-left: -250px;
   /*margin-top: -220px;*/
-  background: url("../images/transparent-25-bg.png") repeat;
+  background: url("../images/transparent-75-bg.png") repeat;
   border-radius: 10px;
   padding-top: 10px;
   box-shadow: 0 4px 50px -1px #FFF;
 }
 
 #login-box div.logo {
-  width: 347px;
-  height: 190px;
+  width: 219px;
+  height: 189px;
   margin: auto;
-  background: center url("../images/logo.png") no-repeat;
+  background: center url("../images/logo-asterisk.png") no-repeat;
   z-index: 10;
 }
 
