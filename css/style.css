@@ -36,6 +36,11 @@ input[type="checkbox"] {
   clear: both;
 }
 
+div#holder {  
+    position: absolute;
+    width: 100%;
+
+}
 
 
 /***************** body ***************/
@@ -79,10 +84,11 @@ div.balloonInvitationTip a:hover {
 /************* top-bar ****************/
 #top-bar {
   position: absolute;
-  z-index: 100;
+/*   z-index: 100; */
   height: 40px;
   width: 100%;
   background: #000 20px center url("../images/logo-mini.png") no-repeat;
+  bottom: 0px;
 }
 
 #top-bar div.description {
@@ -138,7 +144,7 @@ div.balloonInvitationTip a:hover {
   height: 100%;
   opacity: 0.95;
   /* background: #00A8A8; old blue */
-  background: #AC9865;
+  background: #414141;
 }
 
 #login-box {
@@ -148,7 +154,7 @@ div.balloonInvitationTip a:hover {
   height: 450px;
   left: 50%;
   /*top: 50%;*/
-  top: 100px;
+  top: 40px;
   margin-left: -250px;
   /*margin-top: -220px;*/
   background: url("../images/transparent-75-bg.png") repeat;
@@ -178,7 +184,7 @@ div.balloonInvitationTip a:hover {
   padding: 0 10px;
   font-size: 14px;
   font-weight: bold;
-  background: #AB9B7A;
+  background: #334A6D;
   opacity: 0.9;
   color: #FFF;
   border-radius: 4px 4px 0 0;
@@ -376,7 +382,7 @@ div.balloonInvitationTip a:hover {
 
 /****** phone-page *******/
 #phone-page {
-  padding-top: 40px;
+/*   padding-top: 40px; */
 }
 
 
